@@ -1,6 +1,6 @@
 package striver.a2zdsa.step1.basics;
 
-public class CheckForPalindrome {
+public class Exercise3_CheckForPalindrome {
     public static void main(String[] args) {
         int n = 121;
         int reverseN = reverseNum(n);

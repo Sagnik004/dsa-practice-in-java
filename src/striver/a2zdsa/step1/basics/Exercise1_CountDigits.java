@@ -1,7 +1,7 @@
 package striver.a2zdsa.step1.basics;
 
 // https://takeuforward.org/data-structure/count-digits-in-a-number/
-public class CountDigits {
+public class Exercise1_CountDigits {
     public static void main(String[] args) {
         System.out.println(getNumberOfDigits_approach1(12345));
         System.out.println(getNumberOfDigits_approach1(8394));

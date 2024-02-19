@@ -1,7 +1,7 @@
 package striver.a2zdsa.step1.basics;
 
 // https://takeuforward.org/c-programs/reverse-a-number-in-c/
-public class ReverseNumber {
+public class Exercise2_ReverseNumber {
     public static void main(String[] args) {
         System.out.println(getReverse_approach1(123));
         System.out.println(getReverse_approach1(234));

@@ -1,6 +1,6 @@
 package striver.a2zdsa.step1.basics;
 
-public class GcdHcf {
+public class Exercise4_GcdHcf {
     public static void main(String[] args) {
         System.out.println(approach_1(6, 4));
         System.out.println(approach_1(6, 9));
@@ -18,7 +18,7 @@ public class GcdHcf {
     * TC = O(min(a,b)); SC = 1
     */
     static int approach_1(int a, int b) {
-        int result = 1;
+        int result = 1; // All numbers are divisible by 1
 
         for (int i = 2; i <= Math.min(a, b); i++) {
             if (a%i == 0 && b%i == 0) {
