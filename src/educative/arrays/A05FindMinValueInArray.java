@@ -1,4 +1,4 @@
-package educative;
+package educative.arrays;
 
 public class A05FindMinValueInArray {
     public static void main(String[] args) {
