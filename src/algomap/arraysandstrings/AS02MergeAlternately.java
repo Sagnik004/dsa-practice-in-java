@@ -1,5 +1,6 @@
 package algomap.arraysandstrings;
 
+// https://leetcode.com/problems/merge-strings-alternately/description/
 public class AS02MergeAlternately {
 
     public static void main(String[] args) {
