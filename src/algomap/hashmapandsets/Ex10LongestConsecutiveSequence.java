@@ -3,6 +3,7 @@ package algomap.hashmapandsets;
 import java.util.Arrays;
 import java.util.HashSet;
 
+// https://leetcode.com/problems/longest-consecutive-sequence/description/
 public class Ex10LongestConsecutiveSequence {
     public static void main(String[] args) {
         int[] input = {100,4,200,1,3,2};
