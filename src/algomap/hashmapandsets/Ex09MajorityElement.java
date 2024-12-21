@@ -14,6 +14,11 @@ public class Ex09MajorityElement {
         System.out.println(majorityElement_Sol2(input));
     }
 
+    /**
+     * Make use of a HashMap to store the count of occurrences of each
+     * element. Whichever element has the count more than n/2, return
+     * that element.
+     */
     // TC = O(n) where n=len(nums); SC = O(n)
     public static int majorityElement_Sol1(int[] nums) {
         int len = nums.length;
@@ -30,7 +35,7 @@ public class Ex09MajorityElement {
         return -1;
     }
 
-    //  Using Moore’s Voting Algorithm
+    // Using Moore’s Voting Algorithm
     // TC = O(n) where n=len(nums); SC = O(1)
     public static int majorityElement_Sol2(int[] nums) {
         int len = nums.length;
